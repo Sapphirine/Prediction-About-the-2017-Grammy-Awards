@@ -1,0 +1,7 @@
+
+touch us_billboard.result.csv
+chmod 777 us_billboard.result.csv
+csvcut -n ./us_billboard.csv
+csvcut -c 5 ./us_billboard.csv > us_billboard.result.csv
+/usr/local/spark-2.0.1-bin-hadoop2.7/bin/spark-submit my_script.py file:///usr/local/us_billboard.result.csv > ./result.txt
+
