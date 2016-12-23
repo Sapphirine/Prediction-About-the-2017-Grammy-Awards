@@ -9,5 +9,5 @@ In this directory, you will find all the codes we use in this project, including
 5. "KeyFeatureExtraction.py" -- PyCUDA code to set up songs trend library and extract the key feature using Parallel Computing technique.
    Requirements for this code are a) Anaconda 2.7 b) theano c) NVIDIA CUDA Toolkit 8.0 d) Microsoft Visual Studio 2013
    The directory of this code should also have "us_billboad.psv" inside.
-6. "BPANN.m" -- MATLAB code to train and use the Backpropagation Artificial Neural Networks. Just click "run" in MATLAB to run this code.
+6. "BPANN.m" -- In "/Predict" directory. MATLAB code to train and use the Backpropagation Artificial Neural Networks. Just click "run" in MATLAB to run this code.
    The directory of this code should also have "training79.txt" and "forecast79.txt" inside.
